@@ -1,11 +1,11 @@
 module.exports = {
-  plugins: ['eslint-comments'],
+  plugins: ['@eslint-community/eslint-comments'],
   rules: {
     /**
      * Require comments on ESlint disable directives.
      *
-     * 🚫 Not fixable - https://mysticatea.github.io/eslint-plugin-eslint-comments/rules/require-description.html
+     * 🚫 Not fixable - https://eslint-community.github.io/eslint-plugin-eslint-comments/rules/require-description.html
      */
-    'eslint-comments/require-description': 'error',
+    '@eslint-community/eslint-comments/require-description': 'error',
   },
 };
